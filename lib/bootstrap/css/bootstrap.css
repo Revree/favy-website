@@ -2548,8 +2548,8 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
-  height: 34px;
+  width: 50%;
+  height: 50px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -2605,7 +2605,7 @@ input[type="search"] {
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
-    line-height: 34px;
+    line-height: 50px;
   }
   input[type="date"].input-sm,
   input[type="time"].input-sm,
@@ -2694,7 +2694,7 @@ fieldset[disabled] .checkbox label {
   cursor: not-allowed;
 }
 .form-control-static {
-  min-height: 34px;
+  min-height: 50px;
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
@@ -2790,9 +2790,9 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  width: 34px;
-  height: 34px;
-  line-height: 34px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   pointer-events: none;
 }
@@ -2936,7 +2936,7 @@ select[multiple].input-lg {
     width: auto;
   }
   .form-inline .input-group > .form-control {
-    width: 100%;
+    width: 50%;
   }
   .form-inline .control-label {
     margin-bottom: 0;
@@ -3818,6 +3818,9 @@ tbody.collapse.in {
   display: table;
   border-collapse: separate;
 }
+.input-group2 {
+  width: 10px;
+}
 .input-group[class*="col-"] {
   float: none;
   padding-right: 0;
@@ -3827,7 +3830,7 @@ tbody.collapse.in {
   position: relative;
   z-index: 2;
   float: left;
-  width: 100%;
+  width: 50%;
   margin-bottom: 0;
 }
 .input-group .form-control:focus {
@@ -4399,7 +4402,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     width: auto;
   }
   .navbar-form .input-group > .form-control {
-    width: 100%;
+    width: 50%;
   }
   .navbar-form .control-label {
     margin-bottom: 0;

@@ -153,14 +153,14 @@ header {
   overflow-y: hidden;
   background: url("../img/bg-pattern.png"), #61faae;
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #61faae, #dc2430);
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #61faae, #4db3f7);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #61faae, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #61faae, #4db3f7);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
 header .header-content {
-  text-align: center;
+  text-align: left;
   padding: 150px 0 50px;
   position: relative;
 }
@@ -219,7 +219,7 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   font-size: 50px;
@@ -284,8 +284,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #61faae, #dc2430);
-  background: linear-gradient(to left, #61faae, #dc2430);
+  background: -webkit-linear-gradient(to left, #61faae, #4db3f7);
+  background: linear-gradient(to left, #61faae, #4db3f7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -334,7 +334,7 @@ section.contact {
 }
 section.contact h2 {
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 section.contact h2 i {
   color: #dd4b39;

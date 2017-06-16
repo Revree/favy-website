@@ -160,8 +160,8 @@ header {
   color: white;
 }
 header .header-content {
-  text-align: left;
-  padding: 150px 0 50px;
+  text-align: center;
+  padding: 100px 15px 50px;
   position: relative;
 }
 header .header-content .header-content-inner {
